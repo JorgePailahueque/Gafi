@@ -1,0 +1,49 @@
+.image1{
+	background: url("./../images/imagen1.jpg");
+}
+.image2{
+	background: url("./../images/imagen2.jpg");
+}
+.image3 {
+	background: url("./../images/imagen3.jpg");
+}
+.image4 {
+	background: url("./../images/imagen4.jpg");
+}
+.image5 {
+	background: url("./../images/imagen5.jpg");
+}
+.image6 {
+	background: url("./../images/imagen6.jpg");
+}
+.image7 {
+	background: url("./../images/imagen7.jpg");
+}
+
+
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7 {
+	height: 680px;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid black;
+}
+.info {
+	padding: 0px;
+	margin-top: 585px;
+}
+.info p{
+	background-color: #fff;
+	margin: 10px 0 0;
+	display: block;
+	margin-left: 20px;
+	padding: 10px;	
+	width: 40%;
+	background-color: white;
+	opacity:0.5;
+}
+ .info p,a {
+ 	font-family: serif;
+ 	font-size: 16px;
+	color:#000;
+ }

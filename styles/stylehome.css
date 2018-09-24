@@ -1,0 +1,96 @@
+h1 {
+	margin-left: 10%;
+	font-family: cursive;
+}
+a {
+	text-decoration: none;
+}
+.content{
+	background: #fff;
+	width: 90%;
+	margin-top:60px; 
+	margin : 0px 5%;
+	position: absolute;
+	z-index: 2;
+	height: 1300px;
+	opacity: 0.9;
+}
+.buscador{
+	margin: 0 auto;
+	margin-top:90px;
+	width: 80%;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+.buscador input {
+	width: 78%;
+	float: left;
+	margin: 4px 0px;
+	height: 30px;
+	margin-left: 2%;
+	opacity: 0.8;
+	border-style: none;
+	font-size: 16px;
+}
+.btn {
+	width: 19%;
+	height: 40px;
+	float: right;
+	background: #DD2C00;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.btn p{
+	color: #fff;
+	line-height: 40px;
+	margin: 0;
+}
+.btn:hover{
+  background: #B71C1C;
+  cursor: pointer; 
+  transition: background .2s; 
+}
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover {
+	opacity: 0.6;
+    cursor: pointer; 
+    transition: background .2s;
+}
+.item{
+	height: 320px;
+	width: 200px;
+	margin: 10px 0% 0px 3%;
+	float: left;
+	border-radius: 13px;
+	background: #000;
+}
+
+.item p {
+	color: #fff;
+	margin: 0;
+	font-size: 16px;
+}
+
+.image1{
+	background: url("./../images/books/book1.jpg");
+}
+.image2{
+	background: url("./../images/books/book2.jpg");
+}
+.image3{
+	background: url("./../images/books/book3.jpg");
+}
+.image4{
+	background: url("./../images/books/book4.jpg");
+}
+.image5{
+	background: url("./../images/books/book5.jpg");
+}
+.image1, .image2, .image3, .image4, .image5{
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 8px;
+	height: 230px;
+	width: 160px;
+	background-size: cover;
+}

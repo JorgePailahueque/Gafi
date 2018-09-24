@@ -1,0 +1,136 @@
+.panel{
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    position: fixed;
+    background: #000;
+    top: 60px;
+    opacity: 0.4;
+}
+img {
+    border: 2px solid black;
+    margin-top: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    height: 100vh;
+}
+h2,h3{
+    text-align: center;
+    color: #fff;
+    margin: 5px 0px;
+    font-family: "Homer Simpson", cursive;
+
+}
+
+p{  
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+.pagename p{
+    font-size: 120px;
+    font-family: inherit;
+    font-style: italic;
+
+}
+.container{
+    z-index: 6;
+    margin: 0;
+    width: 88%;
+    position: relative;
+    top: 90px;
+    margin: 0 auto;
+    height: 500px;
+
+}
+.container p{
+    margin: 0;
+}
+
+.google:hover, .facebook:hover{
+  background: #000;
+  cursor: pointer; 
+  transition: background .2s; 
+}
+.facebook {
+    background: #1b28d4;
+    border: 1px solid blue;
+}
+.google {
+    background: #c91010;
+    border: 1px solid red;
+}
+ .google,.facebook {
+    float: left;
+    margin: 0px 5px;
+    opacity: 0.8;
+    border-radius: 25px;
+    width: 128px;
+    height: 25px;
+}
+.google a , .facebook a{
+    color: #fff;
+    text-decoration: none;
+    width: 128px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    height: 25px;
+    line-height: 25px
+}
+.login {
+    width: 280px;
+    float: right;
+    margin: 10% 5% 0% 0%;
+}
+
+.pagename {
+    margin: 15% 0% 0% 5%;
+    float: left;
+}
+.input {
+    padding: 4px 0px;
+    border-radius: 15px;
+    background: #fff;
+    margin: 10px 0px;
+    opacity: 0.8;
+}
+
+.input p, form {
+    color: gray;
+    text-align: left;
+    margin: 0 10px;
+}
+.input input {
+    width: 100%;
+    border: 0px;
+    padding: 5px 0px;
+}
+.boton {
+    width: 278px;
+    background: #fff;
+    margin: 0;
+    border: 1px solid black;
+    opacity: 0.7;
+    margin: 5px 0px 10px 0px;
+    height: 30px;
+}
+
+.boton a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 278px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.answers {
+    margin-bottom: 10px;
+}
+.answers p, a{
+    text-align: left;
+    color: #fff;
+    opacity: 0.9;
+}
